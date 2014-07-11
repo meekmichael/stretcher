@@ -3,6 +3,7 @@ Coveralls.wear!
 
 require 'rspec'
 require 'stretcher'
+require 'rspec/its'
 
 File.open("test_logs", 'wb') {|f| f.write("")}
 DEBUG_LOGGER = Logger.new('test_logs')
